@@ -4,6 +4,7 @@
 }
 body{
 	background-color: #eeeeee;
+	font-family: sans-serif;
 }
 .tm-header:after{
 	content: " ";
@@ -13,9 +14,11 @@ body{
 }
 .tm-logo{
 	float: left;
+	border-radius: 10px 10px 10px 10px;
 }
 .tm-header{
-	background-color: #fff;
+	background-color:#0080ff;
+
 
 }
 .tm-container{
@@ -25,7 +28,7 @@ body{
 }
 .tm-nav ul li{
 	display: inline-block;
-	font-family: sans-serif;
+	
 }
 .tm-nav ul li a{
 	padding-right: 20px;
@@ -33,31 +36,37 @@ body{
 	text-decoration: none;
 	color: black;
 	line-height: 75px;
+	
 }
 .tm-nav  {
 	float: right;
+	background-color: #fc039d;
+	border-radius: 10px 10px 10px 10px;
 	}
-	.tm-nav ul li a:hover{
-		color: blue;
+.tm-nav ul li a:hover{
+	color: red;
 
-	}
+
+}
 .tm-article{
-	background: #fff;
+	
 	font-family: sans-serif;
 	padding: 30px;
+	background-color:#0398fc;
+	border-radius:25px 25px 25px 25px; 
+	
 
 }
-img{
-	display:block;
-}
-ul,ol{
-	margin-left: 20px;
-}
-p{
+.tm-article p{
 	margin-bottom: 20px;
+	
 }
-h1,h2{
+
+
+.tm-article h1{
 	margin-bottom: 20px;
+	color: #fc030f;
+
 }	
 .tm-content{
 	margin-top: 10px;
@@ -65,13 +74,43 @@ h1,h2{
 }
 .mine{
 	border-radius: 50%;
-}
-section img{
+	display: inline-block;
 	margin-bottom: 10px;
-	border: 4px solid blue;
+	border: 4px solid #eb34c3;
+	
 }
+
 .tm-footer{
 	background: #fff;
 	text-align: center;
 	padding: 10px;
+	font-family: sans-serif;
+}
+.tm-art{
+	display: inline-block;
+	max-width: 940px;
+	margin: 0px auto;
+	float:right;
+}
+
+.tm-art .pota{
+	display: inline-block;
+	float: right;
+	padding: 5px 480px 0px 5px;
+	font-size: 40px;
+	color: blue;
+	margin-left: 5px;
+}
+.tm-art p{
+	font-size: 20px;
+	padding-left: 5px;
+	margin-left: 5px;
+	color: #9932a8;
+}
+.top{
+	padding-left: 1100px;
+}
+section{
+	background-color: #3fff33;
+	border-radius: 25px 25px 25px 25px;
 }
